@@ -38,7 +38,7 @@ the_post();
 			<div class="entry-content row">
 				<section class="col-8">
 					<p><?php esc_html_e( 'The WordPress community and the open source WordPress project is committed to being as inclusive and accessible as possible. We want users, regardless of device or ability, to be able to publish content and maintain a website or application built with WordPress.', 'wporg' ); ?></p>
-					<p><?php esc_html_e( 'WordPress aims to make the WordPress Admin and bundled themes fully WCAG 2.0 AA compliant where possible.', 'wporg' ); ?></p>
+					<p><?php esc_html_e( 'WordPress aims to make the WordPress Admin and bundled themes fully WCAG 2.1 AA compliant where possible.', 'wporg' ); ?></p>
 					<p>
 					<?php
 						printf(
@@ -115,7 +115,7 @@ the_post();
 						<?php
 						printf(
 							/* translators: Link to ATAG */
-							wp_kses_post( __( 'The <a href="%s">WordPress accessibility coding standards</a> require new or updated code to meet the standards of the Web Content Accessibility Guidelines (WCAG) version 2.0 at level AA. ATAG conformance is an additional goal beyond WCAG compliance.', 'wporg' ) ),
+							wp_kses_post( __( 'The <a href="%s">WordPress accessibility coding standards</a> require new or updated code to meet the standards of the Web Content Accessibility Guidelines (WCAG) version 2.1 at level AA. ATAG conformance is an additional goal beyond WCAG compliance.', 'wporg' ) ),
 							'https://developer.wordpress.org/coding-standards/wordpress-coding-standards/accessibility/'
 						);
 						?>
